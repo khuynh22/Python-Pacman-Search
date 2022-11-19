@@ -83,7 +83,7 @@ To test the code:
 python pacman.py -l testSearch -p AStarFoodSearchAgent
 
 
-## 8 (3 points): Suboptimal Search
+## 8. Suboptimal Search
 Sometimes, even with A* and a good heuristic, finding the optimal path through all the dots is hard. In these cases, we'd still like to find a reasonably good path, quickly. In this section, you'll write an agent that always greedily eats the closest dot. ClosestDotSearchAgent is implemented for you in searchAgents.py, but it's missing a key function that finds a path to the closest dot.
 The function findPathToClosestDot in searchAgents.py is implemented. Our agent solves this maze (suboptimally!) in under a second with a path cost of 350:
 python pacman.py -l bigSearch -p ClosestDotSearchAgent -z .5 
